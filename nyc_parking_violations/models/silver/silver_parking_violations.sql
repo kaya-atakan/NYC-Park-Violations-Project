@@ -18,7 +18,7 @@ SELECT
     violation_county,
     violation_legal_code,
     vehicle_color,
-    vehicle_year
+    vehicle_year,
     CASE WHEN 
         violation_county == 'MN'
         THEN TRUE
