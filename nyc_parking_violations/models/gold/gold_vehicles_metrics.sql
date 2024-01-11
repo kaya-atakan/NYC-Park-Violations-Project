@@ -4,7 +4,7 @@ SELECT
 FROM
     {{ref('silver_violation_vehicles')}}
 WHERE
-    registration_state = '!NY'
+    registration_state != 'NY'
 GROUP BY
     registration_state
 ORDER BY
