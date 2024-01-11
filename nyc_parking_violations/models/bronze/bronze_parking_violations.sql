@@ -15,7 +15,7 @@ SELECT
     issuer_command,
     issuer_squad,
     violation_time,
-    violation_country,
+    violation_county,
     violation_legal_code,
     vehicle_color,
     vehicle_year
