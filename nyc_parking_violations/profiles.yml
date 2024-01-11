@@ -2,9 +2,12 @@ nyc_parking_violations:
   outputs:
     dev:
       type: duckdb
-      path: '../data/nyc_parking_violations.db'
+      path: './data/nyc_parking_violations.db'
     prod:
+      # notice that path is slightly different because 
+      # Github Actions CI Pipeline start in the
+      # nyc_parking_violations directory
+      # previously, it was ../data/prod_nyc_parking_violations.db
       type: duckdb
-      path: '../data/prod_nyc_parking_violations.db'
-
+      path: './data/prod_nyc_parking_violations.db'
   target: dev
