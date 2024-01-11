@@ -163,3 +163,5 @@ cython_debug/
 # NYC-PARKING-VIOLATIONS-PROJECT
 .user.yml
 dev.duckdb
+models/dbt_packages/
+models/dev.duckdb
